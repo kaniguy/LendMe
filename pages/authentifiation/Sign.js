@@ -67,7 +67,7 @@ const Sign = ({ navigation: { replace } }) => {
     }
 
     // Envoi de la requête API
-    axios.post('http://192.168.1.9:8083/users/register', {
+    axios.post('http://192.168.1.11:8083/users/register', {
       names: name,
       numeroPhone: numeroPhone,
       password: password

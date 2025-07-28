@@ -101,7 +101,7 @@ const Home = ({ navigation: { navigate } }) => {
     });
 
 
-    axios.get(`http://192.168.1.2:8083/users/${idUser}`)
+    axios.get(`http://192.168.1.11:8083/users/${idUser}`)
     .then(function (response) {
       setSolde(response.data.solde)
       setName(response.data.names)
